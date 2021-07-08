@@ -6559,6 +6559,11 @@ jest@^24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
+jquery@*:
+  version "3.6.0"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.6.0.tgz?cache=0&sync_timestamp=1614705838607&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjquery%2Fdownload%2Fjquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha1-xyoJ8Vwb3OFC9J2/EXC9+K2sJHA=
+
 js-beautify@^1.6.12, js-beautify@^1.6.14:
   version "1.14.0"
   resolved "https://registry.nlark.com/js-beautify/download/js-beautify-1.14.0.tgz#2ce790c555d53ce1e3d7363227acf5dc69024c2d"
@@ -9917,6 +9922,13 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swiper@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.nlark.com/swiper/download/swiper-3.1.2.tgz#eb4cc7a8aed03ddec344bea92766fd1c12bfe9d5"
+  integrity sha1-60zHqK7QPd7DRL6pJ2b9HBK/6dU=
+  dependencies:
+    jquery "*"
 
 symbol-observable@^1.1.0:
   version "1.2.0"

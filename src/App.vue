@@ -1,32 +1,32 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/production" active-class="selected">产品介绍</router-link> 
+      <router-link to="/cooperation" active-class="selected">商务合作</router-link> 
+      <router-link to="/about" active-class="selected">关于我们</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style scoped lang="scss">
+@import "../src/assets/style/normal.css";
+#app{
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+#nav{
+  width: 825px;
+  margin: 0 auto;
+  height: 56px;
+  line-height: 56px;
+  > a{
+  margin-right: 40px;
   }
+.selected{
+      color: blue;
+    }
 }
+
+
 </style>
