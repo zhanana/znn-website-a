@@ -51,6 +51,7 @@
     }
     >hr{
         opacity: 50%;
+        margin-bottom: 6px;
     }
     >.police{
         font-size: 8px;
